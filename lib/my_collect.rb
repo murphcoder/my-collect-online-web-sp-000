@@ -1,5 +1,5 @@
 def my_collect(array)
-  return = []
+  display = []
   count = 0
   while count < array.length do
     return << yield array[count]
