@@ -2,7 +2,7 @@ def my_collect(array)
   display = []
   count = 0
   while count < array.length do
-    yield array[count]
+    display << yield array[count]
     count += 1
   end
   display
