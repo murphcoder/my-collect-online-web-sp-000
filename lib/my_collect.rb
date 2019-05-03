@@ -4,3 +4,4 @@ def my_collect(array)
   while count < array.length do
     display << yield array[count]
     count += 1
+  end
